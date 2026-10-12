@@ -35,7 +35,10 @@
       const update = () => {
         const tier = Math.trunc(Math.max(1, Math.min(100, Number(calculator.querySelector('[name=tier]').value) || 1)));
         const players = Number(calculator.querySelector('[name=players]').value);
-        const base = tier === 1 ? 4000 : 19000 + (tier - 2) * 25000;
+        const difficulty = calculator.querySelector('[name=difficulty]').value;
+        const profiles = {easy: [4000, 15000, 20000], medium: [8000, 15000, 25000], nightmare: [16000, 20000, 30000]};
+        const [start, firstIncrease, laterIncrease] = profiles[difficulty] || profiles.medium;
+        const base = tier === 1 ? start : start + firstIncrease + (tier - 2) * laterIncrease;
         const hp = Math.min(400000, Math.trunc(base * (players === 1 ? 1 : players * .75)));
         calculator.querySelector('output').textContent = `${hp.toLocaleString('en-US')} HP`;
       };
