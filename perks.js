@@ -21,7 +21,7 @@ window.INKY_PERKS = [
     name: 'Double Tap II',
     type: 'stock',
     summary: 'Improves your gunfire and enables the ground slam after you unlock Exo movement.',
-    detail: `<p>Retains Double Tap II's native gun benefits, with additional penetration support where the weapon and map allow it.</p><p>After the <strong>2,000-kill Exo unlock</strong>, holding Double Tap lets you press Crouch after an Exo jump to perform a ground slam. The total damage increase still depends on the weapon.</p>`
+    detail: `<p>Retains Double Tap II's native gun benefits, with additional penetration support where the weapon and map allow it.</p><p>After the <strong>2,000-personal-kill Exo unlock</strong>, holding Double Tap lets you press Crouch after an Exo jump to perform a ground slam. The total damage increase still depends on the weapon.</p>`
   },
   {
     name: 'Stamin-Up',
