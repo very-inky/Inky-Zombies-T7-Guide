@@ -93,7 +93,7 @@ window.INKY_PERKS = [
     name: 'Danger Close',
     type: 'inky',
     summary: 'Makes eligible explosives scale with the health of the enemies they hit.',
-    detail: `<p>Ordinary explosive hits against zombies gain damage equal to <strong>20% of the victim's maximum HP</strong>. Placeable-mine blasts instead have a minimum of <strong>one-third of maximum HP + 55 damage</strong>.</p><p>The ordinary bonus excludes the Ray Gun Mark II family. It can strengthen PhD blasts, but does not multiply Elemental Overcharge damage or bypass a boss's damage protections.</p><p>Available through Inky's random perk purchases and rewards.</p>`
+    detail: `<p>Ordinary explosive hits against zombies gain damage equal to <strong>20% of the victim's maximum HP</strong>. Placeable-mine blasts instead have a minimum of <strong>one-third of maximum HP + 55 damage</strong>.</p><p><strong>Explosive Bullets uses a smaller 2%-maximum-HP addition</strong>, applied after its damage multipliers. Danger Close also extends that perk's blast radius from <strong>115 to 150 units</strong>. The 2% is an addition, not a cap on the whole blast.</p><p>The ordinary bonus excludes the Ray Gun Mark II family. It can strengthen PhD blasts, but does not multiply Elemental Overcharge damage or bypass a boss's damage protections.</p><p>Available through Inky's random perk purchases and rewards.</p>`
   },
   {
     name: 'Magnet',
@@ -105,6 +105,6 @@ window.INKY_PERKS = [
     name: 'Explosive Bullets',
     type: 'inky',
     summary: 'Gives eligible bullet hits a chance to explode and damage nearby enemies.',
-    detail: `<p>Each eligible hit has a <strong>6% chance</strong> to produce a <strong>150-unit</strong> blast after 0.05 seconds. Center damage starts at <strong>30% of the triggering hit's calculated damage</strong>, falling to 1 at the edge. Shotgun spread weapons are excluded.</p><p>Its own splash can hurt you, but is capped at <strong>20 HP</strong> and cannot reduce you below 1 HP. PhD prevents that splash. This protection does not make ordinary grenades safe.</p><p>Available through Inky's random perk purchases and rewards.</p>`
+    detail: `<p>Each eligible hit has a <strong>6% chance</strong> to produce a blast after 0.05 seconds. Its radius is <strong>115 units</strong>, or <strong>150 with Danger Close</strong>. Shotgun spread weapons are excluded.</p><p>Center damage starts at <strong>30% of the triggering bullet's damage before Inky's damage bonuses</strong>, falling to 1 at the edge before blast bonuses. The hit location still affects that starting damage. The blast then receives applicable kill-reward/EC, fire and Mule Kick bonuses once, without inheriting the shot's amplified total. Danger Close adds <strong>2% of each victim's maximum HP afterward</strong>; that addition receives no further damage multipliers from these perks and rewards.</p><p>Its own splash can hurt you, but is capped at <strong>20 HP</strong> and cannot reduce you below 1 HP. PhD prevents that splash. This protection does not make ordinary grenades safe.</p><p>Available through Inky's random perk purchases and rewards.</p>`
   }
 ];
