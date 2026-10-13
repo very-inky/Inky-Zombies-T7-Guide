@@ -9,6 +9,6 @@ The perk reference has filters and expandable entries. The Panzer page includes
 an encounter-health calculator and custom-map setup and compatibility guidance.
 This guide does not install or modify the mod.
 
-The guide describes current default rules as reviewed on 11 October 2026.
+The guide describes current default rules as reviewed on 12 October 2026.
 Host settings and map-specific mechanics can change gameplay. Exact tuning may
 change in later mod updates.
