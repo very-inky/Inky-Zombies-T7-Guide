@@ -51,7 +51,7 @@ window.INKY_PERKS = [
     name: 'PhD Flopper',
     type: 'inky',
     summary: 'Protects you from explosive and fall damage while adding rechargeable slide blasts.',
-    detail: `<p>Starts with <strong>two slide-blast charges</strong>. Receiving an eligible enemy hit restores one charge, up to two; dealing damage does not recharge it. Slide blasts spend a charge, while dive blasts are free.</p><ul><li><strong>Slide:</strong> center damage 1,500 + 100 × round; edge damage 500 + 30 × round; radius 100 + 3 × round.</li><li><strong>Dive:</strong> center damage 5,000 + 200 × round; edge damage 1,000 + 50 × round; radius 300 + 5 × round.</li></ul><p>If you had PhD when downed, press <strong>Aim + Fire</strong> while down to drop a nuke, once for that down. Obtain PhD through Inky's random perk purchases and rewards.</p>`
+    detail: `<p>Starts with <strong>two slide-blast charges</strong>. Receiving an eligible enemy hit restores one charge, up to two; dealing damage does not recharge it. Each slide blast spends one charge.</p><p><strong>Slide blast:</strong> center damage 1,500 + 100 × round; edge damage 500 + 30 × round; radius 100 + 3 × round.</p><p>If you had PhD when downed, press <strong>Aim + Fire</strong> while down to drop a nuke, once for that down. Obtain PhD through Inky's random perk purchases and rewards.</p>`
   },
   {
     name: 'Tombstone',
