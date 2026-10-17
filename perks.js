@@ -15,7 +15,7 @@ window.INKY_PERKS = [
     name: 'Speed Cola',
     type: 'stock',
     summary: 'Speeds up reloads, weapon handling, equipment use and crafting.',
-    detail: `<p>Faster reloads are joined by faster weapon swaps, aiming, grenade throws, equipment use and melee recovery.</p><p>Supported crafting interactions take <strong>31% of their normal time</strong>, with a minimum of <strong>0.25 seconds</strong>.</p>`
+    detail: `<p>Faster reloads are joined by faster weapon swaps, aiming, grenade throws, equipment use and melee recovery.</p><p>Supported crafting interactions take <strong>31% of their normal time</strong>, with a <strong>0.25-second floor</strong>. Interactions already faster than that keep their original time.</p>`
   },
   {
     name: 'Double Tap II',
@@ -80,8 +80,8 @@ window.INKY_PERKS = [
   {
     name: "Widow's Wine",
     type: 'inky',
-    summary: 'Spends a grenade to web nearby attackers, while thrown stickies web a larger area.',
-    detail: `<p>An eligible enemy hit releases webs within <strong>150 units</strong>, costing <strong>one lethal grenade</strong> when the burst succeeds. Thrown web grenades cover <strong>210 units</strong>.</p><p>Webs deal <strong>three ticks of 150 damage</strong>, one second apart, and slow affected zombies to a walk for <strong>15 seconds</strong>. Another application refreshes the slow without stacking simultaneous web-damage effects.</p><p>This replaces the normal Widow's Wine. Supported Widow machines cost <strong>4,000 points</strong>; it can also come from supported Wunderfizz rolls and Inky perk rewards.</p>`
+    summary: 'Spends a grenade to web nearby attackers, while your thrown grenades web a larger area.',
+    detail: `<p>An eligible enemy hit releases webs within <strong>150 units</strong>, costing <strong>one lethal grenade</strong> when the burst succeeds. The perk also adds webs to your existing thrown grenades, covering <strong>210 units</strong> around the blast.</p><p>Webs deal <strong>three ticks of 150 damage</strong>, one second apart, and slow affected zombies to a walk for <strong>15 seconds</strong>. Another application refreshes the slow without stacking simultaneous web-damage effects.</p><p>This replaces the normal Widow's Wine. Supported Widow machines cost <strong>4,000 points</strong>; it can also come from supported Wunderfizz rolls and Inky perk rewards.</p>`
   },
   {
     name: 'Burn Heart',
