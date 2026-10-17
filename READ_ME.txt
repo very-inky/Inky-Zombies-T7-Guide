@@ -8,8 +8,8 @@ Use the left-hand topics, search box or Ctrl/Cmd+K to find a mechanic.
 The perk reference has filters and expandable entries. The Panzer page includes
 an encounter-health calculator and custom-map setup and compatibility guidance.
 This guide does not install or modify the mod.
-For a local playtest, load the supplied local mod copy in BO3. Updating a local
-copy or this reference does not publish a Workshop or live-site update.
+Load Inky Zombies 1.1 from BO3’s Mods menu before entering Zombies. Everyone
+in a co-op lobby should use the same mod version.
 
 The guide describes the IZ 1.1 default rules, reviewed on 17 October 2026.
 Defaults are Normal zombie difficulty and Scaling PaP prices. PaP prices stop
