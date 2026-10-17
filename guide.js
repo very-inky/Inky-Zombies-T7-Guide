@@ -19,9 +19,9 @@
     const page = pages.find(item => item.id === id) || pages[0];
     const index = pages.indexOf(page);
     const next = pages[(index + 1) % pages.length];
-    document.title = `${page.nav} · Inky Zombies 1.0 Player Guide`;
+    document.title = `${page.nav} · Inky Zombies 1.1 Player Guide`;
     document.querySelector('#breadcrumb').textContent = page.nav;
-    article.innerHTML = `<div class="eyebrow">${escape(page.eyebrow || 'FIELD NOTES')} / ${String(index + 1).padStart(2, '0')}</div><div class="${page.id === 'start' ? 'hero' : ''}"><h1>${page.title}</h1><p class="lede">${page.intro}</p></div><div class="article-body">${page.body}</div><div class="next-page"><span>Inky Zombies 1.0 · Default rules</span><a href="#${next.id}">Next: ${escape(next.nav)} →</a></div>`;
+    article.innerHTML = `<div class="eyebrow">${escape(page.eyebrow || 'FIELD NOTES')} / ${String(index + 1).padStart(2, '0')}</div><div class="${page.id === 'start' ? 'hero' : ''}"><h1>${page.title}</h1><p class="lede">${page.intro}</p></div><div class="article-body">${page.body}</div><div class="next-page"><span>Inky Zombies 1.1 · Default rules</span><a href="#${next.id}">Next: ${escape(next.nav)} →</a></div>`;
     for (const link of navigation.querySelectorAll('a')) {
       if (link.hash === `#${page.id}`) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
     }
