@@ -18,15 +18,12 @@ Rush on Custom Maps before launch. This is separate from Custom Map Panzers.
 Boss encounters occur every third round, beginning on round 3. Each clear gives
 Max Ammo and 1,000 / 2,000 / 5,000 points per eligible participant for the first,
 second and every later clear. Shadows keeps native meatballs; other supported
-maps use ordinary sprinters. See the guide for cumulative rewards and rosters.
-Player testing confirms boss activation and Margwa movement on Kino, plus
-loading and Margwas on Origins. Full encounter schedules, custom maps, main
-quests and the co-op compatibility matrix are not guaranteed by that testing.
+maps use ordinary sprinters. See the guide for cumulative rewards, encounter
+rosters and map compatibility details.
 
 The guide describes the IZ 1.2 default rules, reviewed on 18 October 2026.
-Defaults are Normal zombie difficulty and Scaling PaP prices. PaP prices stop
-rising at round 21: 50,000 for an upgrade and 25,000 for a repack. Heroic,
-Nightmare and Fixed PaP prices are optional host settings. The Tombstone HUD
-fix and custom perk artwork from 1.0 remain. Weapons stay map-dependent.
+Defaults are Normal zombie difficulty, Medium Panzers and Scaling PaP prices.
+PaP prices stop rising at round 21: 50,000 for an upgrade and 25,000 for a
+repack. Heroic, Nightmare and Fixed PaP prices are optional host settings.
 Host settings and map-specific mechanics can change gameplay. Exact tuning may
 change in later mod updates.
