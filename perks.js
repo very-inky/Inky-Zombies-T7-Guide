@@ -86,8 +86,8 @@ window.INKY_PERKS = [
   {
     name: 'Burn Heart',
     type: 'inky',
-    summary: 'Makes your frags, web stickies and supported mines leave fire pools while protecting you from fire.',
-    detail: `<p>Pools last <strong>6 seconds</strong> with a <strong>110-unit radius</strong>. Every <strong>0.5 seconds</strong>, their zombie damage starts at <strong>4% of maximum HP</strong>, with a minimum of 10. Zombies in the pool or still burning take <strong>1.5× ordinary damage</strong>; other damage bonuses can also affect the pool's ticks. Pools do not damage Panzers or Margwas.</p><p>You can maintain <strong>two pools</strong>, with six shared across the lobby. Players without Burn Heart take up to <strong>15 HP per tick</strong>, stopping at 1 HP. Your fire immunity does not protect against out-of-bounds or other lethal map barriers.</p><p>Available through Inky's random perk purchases and rewards. The fire pool and the explosive that created it are separate damage effects.</p>`
+    summary: 'Makes your frags, web stickies and supported mines leave fire pools while protecting you from environmental fire and Burn Heart pools.',
+    detail: `<p>Pools last <strong>6 seconds</strong> with a <strong>110-unit radius</strong>. Every <strong>0.5 seconds</strong>, their zombie damage starts at <strong>4% of maximum HP</strong>, with a minimum of 10. Zombies in the pool or still burning take <strong>1.5× ordinary damage</strong>; other damage bonuses can also affect the pool's ticks. Pools do not damage Panzers or Margwas.</p><p>You can maintain <strong>two pools</strong>, with six shared across the lobby. Players without Burn Heart take up to <strong>15 HP per tick</strong>, stopping at 1 HP. Burn Heart does not reduce Panzer flamethrower damage. Its fire protection also does not cover out-of-bounds or other lethal map barriers.</p><p>Available through Inky's random perk purchases and rewards. The fire pool and the explosive that created it are separate damage effects.</p>`
   },
   {
     name: 'Danger Close',
