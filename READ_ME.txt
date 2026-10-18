@@ -6,7 +6,7 @@ connection or installation is needed to read it. JavaScript must be enabled.
 
 Use the left-hand topics, search box or Ctrl/Cmd+K to find a mechanic.
 The Boss Rush page includes both full encounter schedules, spawn limits,
-cumulative blessing unlocks, clear rewards and controlled support drops.
+cumulative blessing unlocks, clear rewards and random support drops.
 The perk reference has filters and expandable entries. The Panzer page includes
 an encounter-health calculator and custom-map setup and compatibility guidance.
 This guide does not install or modify the mod.
