@@ -3,7 +3,7 @@ window.INKY_PERKS = [
     name: 'Juggernog',
     type: 'stock',
     summary: 'Raises your maximum health immediately and keeps adding health as you survive new rounds.',
-    detail: `<p>Grants <strong>+70 maximum HP</strong>, taking a fresh 130-HP player to 200. Each new round begun while you hold Juggernog adds another <strong>3 maximum HP</strong>. Earlier rounds are not backfilled.</p><p>Losing the perk, going down or dying resets its earned round bonus. With Nitrogen Cooled, the immediate +70 bonus is withheld, but the round-by-round growth remains.</p>`
+    detail: `<p>Grants <strong>+70 maximum HP</strong>, taking a fresh 130-HP player to 200. Each new round begun while you hold Juggernog adds another <strong>3 maximum HP</strong>. Earlier rounds are not backfilled.</p><p>Losing the perk, going down or dying resets its earned round bonus. Selecting Nitrogen Cooled directly withholds the immediate +70 bonus but keeps the round-by-round growth. Nitrogen Cooled earned through Usury payoff or Boss Rush keeps the +70 bonus too.</p>`
   },
   {
     name: 'Quick Revive',
@@ -63,13 +63,13 @@ window.INKY_PERKS = [
     name: 'Ethereal Razor',
     type: 'inky',
     summary: 'Adds a close-range area slash to melee attacks and heals you shortly after it connects.',
-    detail: `<p>Each swing reaches nearby enemies within <strong>70 units</strong>. Against ordinary zombies, the slash is lethal before round 10 or during Insta-Kill; otherwise it deals <strong>half their current HP</strong>.</p><p>The separate area slash awards <strong>100 points per kill</strong>, or <strong>140 with Pickpocket</strong>; a nonlethal slash pays 10 per affected enemy. The personal 100-headshot Double Points reward doubles these awards; the temporary pickup does not. Direct melee-contact kills use ordinary melee payouts. See <a href="#economy">Points &amp; upgrades</a> for the full earnings table.</p><p>A connected swing that triggers regeneration restores <strong>10 HP per tick for 10 ticks</strong>, capped by your maximum health. The first tick occurs <strong>0.25 seconds after the trigger</strong>, with the remaining ticks <strong>0.1 seconds apart</strong>. The delay aims to preserve emergency saves while making it harder to stall a horde through repeated healing when trapped in a corner. This separate slash does not gain the usual kill, EC or perk damage bonuses, and special enemies retain their own damage protections.</p><p>Available through Inky's random perk purchases and rewards.</p>`
+    detail: `<p>Each swing reaches nearby enemies within <strong>70 units</strong>. Against ordinary zombies, the slash is lethal before round 10 or during Insta-Kill; otherwise it deals <strong>half their current HP</strong>.</p><p>The separate area slash awards <strong>100 points per kill</strong>, or <strong>140 with Pickpocket</strong>; a nonlethal slash pays 10 per affected enemy. The personal 100-headshot Double Points reward doubles these awards; the temporary pickup does not. Direct melee-contact kills use ordinary melee payouts. See <a href="#economy">Points &amp; upgrades</a> for the full earnings table.</p><p>A connected swing that triggers regeneration restores <strong>10 HP per tick for 10 ticks</strong>, capped by your maximum health. The first tick occurs <strong>0.25 seconds after the trigger</strong>, with the remaining ticks <strong>0.1 seconds apart</strong>. This separate slash does not gain the usual kill, EC or perk damage bonuses, and special enemies retain their own damage protections.</p><p>Available through Inky's random perk purchases and rewards.</p>`
   },
   {
     name: 'Ammo Regen',
     type: 'inky',
     summary: 'Gradually replenishes gun ammunition and grenade supplies.',
-    detail: `<ul><li><strong>Reserves:</strong> 30 rounds for each primary weapon every 30 seconds, up to its reserve limit.</li><li><strong>Held gun:</strong> one magazine round every 2 seconds, up to its base magazine size.</li><li><strong>Grenades:</strong> one lethal and one tactical every 30 seconds, up to 8 lethals and 6 tacticals.</li></ul><p>Holding out a placeable mine does not regenerate mines. Available through Inky's random perk purchases and rewards.</p>`
+    detail: `<ul><li><strong>Reserves:</strong> 30 rounds every 30 seconds for each primary weapon with a separate reserve pool, up to its reserve limit.</li><li><strong>Held weapon:</strong> one magazine round every 2 seconds, up to its base magazine size. This also supplies weapons that store all their ammo in the magazine.</li><li><strong>Grenades:</strong> one lethal and one tactical every 30 seconds, up to 8 lethals and 6 tacticals.</li></ul><p>The magazine refill stops at the weapon’s base magazine capacity; it does not fill the extra capacity from Inky’s 1.5× magazine multiplier. Holding out a placeable mine does not regenerate mines. Available through Inky's random perk purchases and rewards.</p>`
   },
   {
     name: 'Dying Wish',
