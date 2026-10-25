@@ -21,7 +21,9 @@ second and every later clear. Shadows keeps native meatballs; other supported
 maps use ordinary sprinters. See the guide for cumulative rewards, encounter
 rosters and map compatibility details.
 
-The guide describes the IZ 1.2 default rules, reviewed on 18 October 2026.
+The guide describes the IZ 1.2 default rules, updated on 24 October 2026.
+The map and co-op sections include Der Eisendrache quest conveniences,
+Zetsubou golden buckets, teammate box copies and Wunderfizz bottle sharing.
 Defaults are Normal zombie difficulty, Medium Panzers and Scaling PaP prices.
 PaP prices stop rising at round 21: 50,000 for an upgrade and 25,000 for a
 repack. Heroic, Nightmare and Fixed PaP prices are optional host settings.
