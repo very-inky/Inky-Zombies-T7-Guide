@@ -19,9 +19,9 @@
     const page = pages.find(item => item.id === id) || pages[0];
     const index = pages.indexOf(page);
     const next = pages[(index + 1) % pages.length];
-    document.title = `${page.nav} · Inky Zombies 1.3 Player Guide`;
+    document.title = `${page.nav} · Inky Zombies 1.34 Player Guide`;
     document.querySelector('#breadcrumb').textContent = page.nav;
-    article.innerHTML = `<div class="eyebrow">${escape(page.eyebrow || 'FIELD NOTES')} / ${String(index + 1).padStart(2, '0')}</div><div class="${page.id === 'start' ? 'hero' : ''}"><h1>${page.title}</h1><p class="lede">${page.intro}</p></div><div class="article-body">${page.body}</div><div class="next-page"><span>Inky Zombies 1.3 · Default rules</span><a href="#${next.id}">Next: ${escape(next.nav)} →</a></div>`;
+    article.innerHTML = `<div class="eyebrow">${escape(page.eyebrow || 'FIELD NOTES')} / ${String(index + 1).padStart(2, '0')}</div><div class="${page.id === 'start' ? 'hero' : ''}"><h1>${page.title}</h1><p class="lede">${page.intro}</p></div><div class="article-body">${page.body}</div><div class="next-page"><span>Inky Zombies 1.34 · Default rules</span><a href="#${next.id}">Next: ${escape(next.nav)} →</a></div>`;
     for (const link of navigation.querySelectorAll('a')) {
       if (link.hash === `#${page.id}`) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
     }
@@ -36,10 +36,17 @@
         const tier = Math.trunc(Math.max(1, Math.min(100, Number(calculator.querySelector('[name=tier]').value) || 1)));
         const players = Number(calculator.querySelector('[name=players]').value);
         const difficulty = calculator.querySelector('[name=difficulty]').value;
-        const profiles = {easy: [4000, 15000, 20000], medium: [8000, 15000, 25000], nightmare: [16000, 20000, 40000]};
+        const profiles = {easy: [4000, 15000, 20000], medium: [8000, 15000, 25000], nightmare: [16000, 20000, 40000], reincarnation: [16000, 20000, 40000]};
         const [start, firstIncrease, laterIncrease] = profiles[difficulty] || profiles.medium;
-        const base = tier === 1 ? start : start + firstIncrease + (tier - 2) * laterIncrease;
-        const hp = Math.min(400000, Math.trunc(base * (players === 1 ? 1 : players * .75)));
+        let base = tier === 1 ? start : start + firstIncrease + (tier - 2) * laterIncrease;
+        if (difficulty === 'reincarnation') {
+          base = start;
+          for (let step = 2; step <= tier && base < 800000; step++) {
+            base += step === 2 ? firstIncrease : laterIncrease;
+            base += Math.trunc(base * 8 / 100);
+          }
+        }
+        const hp = Math.min(800000, Math.trunc(base * (players === 1 ? 1 : players * .75)));
         calculator.querySelector('output').textContent = `${hp.toLocaleString('en-US')} HP`;
       };
       calculator.addEventListener('input', update); calculator.addEventListener('change', update); update();
