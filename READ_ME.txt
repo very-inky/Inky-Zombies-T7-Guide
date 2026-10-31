@@ -1,8 +1,16 @@
-INKY ZOMBIES 1.34 — PLAYER FIELD GUIDE
+INKY ZOMBIES 1.35 — PLAYER FIELD GUIDE
 
 Open index.html in a browser. Keep the HTML, CSS and JavaScript files together.
 JavaScript must be enabled; no server, account or internet connection is needed.
 This guide does not install or modify the mod.
+
+NEW IN 1.35
+
+Elemental Overcharge has larger fixed limits: Lightning gets 96 total zaps,
+Wind hits up to 64 targets, Ice hits up to 64 per pulse and Fire hits up to 24
+per blast. These limits are the same in every match, regardless of Zombie Cap.
+Damage, ranges and Lightning's once-per-boss rule are unchanged.
+Selectable zombie caps and Reincarnation carry forward from version 1.34.
 
 FIND WHAT YOU NEED
 
@@ -11,8 +19,8 @@ Quick answers covers common questions during a run.
 Use the topic navigation or Ctrl/Cmd+K to search for a mechanic or perk.
 
 Elemental Overcharge explains charging, arming, damage, ranges, Lightning
-chain chances, fixed target limits and boss interactions. Movement & melee covers unlimited sprint,
-bunny hopping, One Inch Punch and Exo controls. The perk reference includes
+chain chances, fixed target limits and boss interactions. Movement & melee
+covers unlimited sprint, bunny hopping, One Inch Punch and Exo controls. The perk reference includes
 expandable entries and filters. Boss Rush lists encounter rosters and rewards;
 Panzer encounters includes a health calculator. Maps & compatibility explains
 map-specific conveniences, quest requirements and custom-map settings.
