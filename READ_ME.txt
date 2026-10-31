@@ -11,7 +11,7 @@ Quick answers covers common questions during a run.
 Use the topic navigation or Ctrl/Cmd+K to search for a mechanic or perk.
 
 Elemental Overcharge explains charging, arming, damage, ranges, Lightning
-chain chances and boss interactions. Movement & melee covers unlimited sprint,
+chain chances, fixed target limits and boss interactions. Movement & melee covers unlimited sprint,
 bunny hopping, One Inch Punch and Exo controls. The perk reference includes
 expandable entries and filters. Boss Rush lists encounter rosters and rewards;
 Panzer encounters includes a health calculator. Maps & compatibility explains
