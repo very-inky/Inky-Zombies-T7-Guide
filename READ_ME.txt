@@ -1,10 +1,16 @@
-INKY ZOMBIES 1.35 — PLAYER FIELD GUIDE
+INKY ZOMBIES 1.36 — PLAYER FIELD GUIDE
 
 Open index.html in a browser. Keep the HTML, CSS and JavaScript files together.
 JavaScript must be enabled; no server, account or internet connection is needed.
 This guide does not install or modify the mod.
 
-NEW IN 1.35
+NEW IN 1.36
+
+Corrected excessive Elemental Overcharge damage against Panzers added by Inky
+Zombies, including during Insta-Kill. Intended damage fractions apply while
+native armor and immunity rules remain in effect.
+
+FROM 1.35: LARGER OVERCHARGE LIMITS
 
 Elemental Overcharge has larger fixed limits: Lightning gets 96 total zaps,
 Wind hits up to 64 targets, Ice hits up to 64 per pulse and Fire hits up to 24
