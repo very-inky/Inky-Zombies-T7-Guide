@@ -1,14 +1,19 @@
-INKY ZOMBIES 1.36 — PLAYER FIELD GUIDE
+INKY ZOMBIES 1.37 — PLAYER FIELD GUIDE
 
 Open index.html in a browser. Keep the HTML, CSS and JavaScript files together.
 JavaScript must be enabled; no server, account or internet connection is needed.
 This guide does not install or modify the mod.
 
-NEW IN 1.36
+NEW IN 1.37
 
-Corrected excessive Elemental Overcharge damage against Panzers added by Inky
-Zombies, including during Insta-Kill. Intended damage fractions apply while
-native armor and immunity rules remain in effect.
+The Giant supports Boss Rush and ordinary added Panzer encounters. Added
+Panzers can recover when stuck while pursuing a distant player, keeping their
+remaining health and armor. Co-op admin pause holds the next wave after the
+current round finishes and leaves everyone free to move and interact.
+Verruckt remains unsupported for Boss Rush and ordinary added Panzers.
+
+The 1.36 Panzer Overcharge damage correction remains: Insta-Kill does not
+boost the intended elemental damage fractions against Panzers.
 
 FROM 1.35: LARGER OVERCHARGE LIMITS
 
