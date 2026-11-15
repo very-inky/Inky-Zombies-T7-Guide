@@ -1,10 +1,22 @@
-INKY ZOMBIES 1.37 — PLAYER FIELD GUIDE
+INKY ZOMBIES 1.38 — PLAYER FIELD GUIDE
 
 Open index.html in a browser. Keep the HTML, CSS and JavaScript files together.
 JavaScript must be enabled; no server, account or internet connection is needed.
 This guide does not install or modify the mod.
 
-NEW IN 1.37
+NEW IN 1.38
+
+Revelations' bonus wisp and Super Easter Egg reward eligibility no longer
+require earlier-map Easter egg completions. The normal quest and victory
+are still required for completion rewards; one-time reward rules remain.
+Earlier maps are not marked completed on your profile.
+
+The admin Debug page offers Revelations EE: read-only eligibility (revtest).
+It checks the party's prerequisites and the wisp state without granting rewards.
+The quick check and wisp availability were confirmed. A full quest payout and
+saved rewards have not been verified for this update. See Maps & compatibility.
+
+FROM 1.37: BOSSES ON THE GIANT
 
 The Giant supports Boss Rush and ordinary added Panzer encounters. Added
 Panzers can recover when stuck while pursuing a distant player, keeping their
